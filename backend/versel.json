@@ -2,18 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "*./index.js",
+      "src": "*.js",
       "use": "@versel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/createUser",
-      "dest": "./index.js"
-    },
-    {
-      "src": "/api/getallUsers",
-      "dest": "./index.js"
+      "src": "/(.*)",
+      "dest": "/"
     }
   ]
 }
