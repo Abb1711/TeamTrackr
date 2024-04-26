@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TeamTrackr
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TeamTrackr is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application for managing employee data. With TeamTrackr, you can easily add, view, and remove employee details.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **CRUD Operations**: Perform Create, Read, Update, and Delete operations on employee data.
+- **Add Employee**: Add new employees with details like name, ID, working branch, etc.
+- **View Employee List**: View the list of all added employees at any time.
+- **Remove Employee**: Remove unwanted employee data from the system.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**:
+  - React.js
+  - React Router
+  - Axios
+  - React Hook Form
+  - React Icons
+  - Tailwind CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB (using Mongoose)
+  - CORS
+  - Dotenv
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository.
+2. Navigate to the `frontend` directory and run `npm install` to install frontend dependencies.
+3. Navigate to the `backend` directory and run `npm install` to install backend dependencies.
+4. Create a `.env` file in the `backend` directory and set up environment variables like MongoDB URI, etc.
+5. Start the backend server by running `npm start` or `npm run dev` for development.
+6. Start the frontend server by running `npm start` in the `frontend` directory.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Once the backend and frontend servers are running, you can access the application at `http://localhost:3000`.
+- Use the interface to add, view, and remove employee details as needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute to this project by forking it and submitting a pull request!
